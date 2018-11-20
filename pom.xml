@@ -60,4 +60,21 @@
 		</plugins>
 		<finalName>${project.artifactId}</finalName> <!-- added to remove Version from WAR file -->
 	</build>
+	<profiles>
+<profile>
+     <id>spring-mvc-example-deploy</id>
+ <distributionManagement>
+    <repository>
+      <id>spring-mvc-example-releases</id>
+      <name>spring-mvc-example-releases</name>
+      <url>http://ip-172-31-10-204.ec2.internal:8081/nexus/content/repositories/myapp-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>spring-mvc-example-snapshots</id>
+      <name>spring-mvc-example-snapshots</name>
+      <url>http://ip-172-31-10-204.ec2.internal:8081/nexus/content/repositories/myapp-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+</profile>
+</profiles>
 </project>
