@@ -67,12 +67,12 @@
     <repository>
       <id>spring-mvc-example-releases</id>
       <name>spring-mvc-example-releases</name>
-      <url>http://ip-172-31-28-223.ap-southeast-1.compute.internal:8081/nexus/content/repositories/spring-mvc-example-releases/</url>
+      <url>http://ip-172-31-28-59.ap-southeast-1.compute.internal:8081/nexus/content/repositories/spring-mvc-example-releases/</url>
     </repository>
     <snapshotRepository>
       <id>spring-mvc-example-snapshots</id>
       <name>spring-mvc-example-snapshots</name>
-      <url>http://ip-172-31-28-223.ap-southeast-1.compute.internal:8081/nexus/content/repositories/spring-mvc-example-snapshots/</url>
+      <url>http://ip-172-31-28-59.ap-southeast-1.compute.internal:8081/nexus/content/repositories/spring-mvc-example-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
